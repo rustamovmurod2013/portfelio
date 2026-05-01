@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[black]">
+
+    <aside class="fixed p-5 bg-black w-[400px] text-[white] h-screen overflow-y-scroll">
+        <div>
+            <div class="flex items-center gap-5">
+                <div class="w-[100px] ">
+                    <img class="w-full" src="./images/image.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-[25px]">Murodjon</h1>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <ul class="pt-5 flex flex-col gap-3">
+                <li class="">
+                    <a class="flex items-center gap-3 duration-300" href="#home">
+                        <div>
+                            <img src="./images/icons8-home.svg" alt="">
+                        </div>
+                        Home
+                    </a>
+                </li>
+                <li class="flex items-center gap-3"><a class="flex items-center gap-3" href="#about">
+                        <div>
+                            <img src="./images/icons8-home.svg" alt="">
+                        </div>
+                        About
+                    </a></li>
+                <li class="flex items-center gap-3"><a class="flex items-center gap-3" href="#portfolio">
+                        <div>
+                            <img src="./images/icons8-home.svg" alt="">
+                        </div>
+                        Portfolio
+                    </a></li>
+                <li class="flex items-center gap-3"><a class="flex items-center gap-3" href="#contact">
+                        <div>
+                            <img src="./images/icons8-home.svg" alt="">
+                        </div>
+                        Contact
+                    </a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <main class="pl-[400px]">
+        <section id="home" class="h-[600px] p-5 flex items-end"
+            style=" background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(./images/static-assets-upload5839687142313999053.webp);">
+            <div class=" ">
+                <h1 class="text-[55px] font-bold">Murodjon Rustamov</h1>
+                <p class="text-[30px]">Young web developer</p>
+            </div>
+        </section>
+        <section id="about" class="text-[white]">
+            <div class="flex flex-col p-10 gap-5">
+                <div class="flex items-center p-10 gap-5">
+                    <div class="w-[250px]">
+                        <img src="./images/image.png" alt="">
+                    </div>
+                    <div class="flex flex-col gap-5 text-[20px] font-[600]">
+                        <p>Name: Murodjon</p>
+                        <p>Age: 13</p>
+                        <p>Hobby: playing computer games</p>
+                        <p>Email: rustamovmurod2013@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="bg-white pt-15 p-5">
+            <div>
+                <h1 class="text-[25px] font-bold">Portfolio projects</h1>
+                <div class="flex flex-wrap gap-5 pt-10">
+                    <a style=" background-image: url(./images/загрузка\ \(3\).png); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                        class="max-w-[350px] block border w-full h-[200px]"
+                        href="https://6-project.vercel.app">
+                    </a>
+                    <a style=" background-image: url(./images/загрузка\ \(4\).png); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                        class="max-w-[350px] block border w-full h-[200px]"
+                        href="https://finsweet-iota-seven.vercel.app">
+                    </a>
+                    <a style=" background-image: url(./images/загрузка\ \(6\).png); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                        class="max-w-[350px] block border w-full h-[200px]"
+                        href="https://desktop-cupc.vercel.app">
+                    </a>
+                    <a style=" background-image: url(./images/загрузка\ \(7\).png); background-repeat: no-repeat; background-position: center; background-size: cover;"
+                        class="max-w-[350px] block border w-full h-[200px]"
+                        href="https://project-m7mh.vercel.app">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="pt-15 p-5">
+            <div>
+                <h1 class="text-[25px] font-bold text-[white]">Contacts</h1>
+                <div class="flex items-start gap-15">
+                    <form class="py-5 flex flex-col gap-5" action="">
+                        <div class="flex flex-col gap-3 w-[500px]">
+                            <label class="text-[white]" for="name">Name</label>
+                            <input id="name" class="bg-white h-[50px] pl-5 rounded-[50px]" type="text" placeholder="Name">
+                        </div>
+                        <div class="flex flex-col gap-3 w-[500px]">
+                            <label class="text-[white]" for="">Email</label>
+                            <input class="bg-white h-[50px] pl-5 rounded-[50px]" type="text" placeholder="Email">
+                        </div>
+                        <div class="flex flex-col gap-3 w-[500px]">
+                            <label class="text-[white]" for="">Phone</label>
+                            <input class="bg-white h-[50px] pl-5 rounded-[50px]" type="text" placeholder="Phone
+                                            ">
+                        </div>
+                    </form>
+                    <div class="w-[500px] h-[375px]">
+                        <iframe class="w-full h-full"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d95872.49292629752!2d69.3600256!3d41.330278400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1777561966810!5m2!1sru!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
